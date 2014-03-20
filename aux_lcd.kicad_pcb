@@ -3,7 +3,7 @@
   (general
     (links 89)
     (no_connects 0)
-    (area 99.949999 99.949999 126.050001 131.050001)
+    (area 97.896334 99 271.200001 141.7345)
     (thickness 1.6)
     (drawings 10)
     (tracks 382)
@@ -230,6 +230,11 @@
     (pad 1 smd rect (at 3.04 2.65) (size 0.3 1)
       (layers F.Cu F.Paste F.Mask)
       (net 7 /nRF51822/P16)
+    )
+    (model 503480.wrl
+      (at (xyz 0 -0.14 0))
+      (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1237,6 +1242,11 @@
       (net 12 /nRF51822/P6)
       (clearance 0.08)
     )
+    (model smd/qfn24.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.75 0.75 1.14))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SM0402_c (layer F.Cu) (tedit 532ADA64) (tstamp 5329C348)
@@ -1329,6 +1339,11 @@
       (layers *.Cu *.Mask)
       (net 20 GND)
       (zone_connect 2)
+    )
+    (model cr2032.wrl
+      (at (xyz 0 0 -0.062992126))
+      (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
     )
   )
 
